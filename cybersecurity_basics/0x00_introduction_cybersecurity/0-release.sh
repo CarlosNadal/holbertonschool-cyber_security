@@ -1,4 +1,2 @@
 #!/bin/bash
-
-grep '^ID=' /etc/*release | cut -d '=' -f 2
-
+grep '^ID=' /etc/*release | cut -d '=' -f 2 \n
