@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux | awk -v user="$1" '$1 == user && $5 > 0 && $6 > 0 { print }'
+ps aux | grep "^$1 " | grep -v '^[ ]*PID' | awk '$5 > 0 && $6 > 0 { print }'
