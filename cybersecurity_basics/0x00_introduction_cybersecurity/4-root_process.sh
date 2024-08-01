@@ -1,2 +1,2 @@
 #!/bin/bash
-ps axu | grep '^root' 
+ps aux | grep '^root' 
