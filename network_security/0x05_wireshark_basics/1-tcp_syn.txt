@@ -1,1 +1,1 @@
-tcp.window.size < 1024
+tcp.flags.syn == 1
