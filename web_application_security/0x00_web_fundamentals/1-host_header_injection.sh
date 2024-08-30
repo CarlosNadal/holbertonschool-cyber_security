@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo curl -X
+sudo curl -X -H
