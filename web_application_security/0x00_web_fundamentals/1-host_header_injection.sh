@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo curl -X -H $1 $2 $3
+sudo curl -X POST $2 -H $2 -d $3
