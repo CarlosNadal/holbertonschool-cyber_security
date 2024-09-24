@@ -1,1 +1,1 @@
-/hidden-directory, 741faaf64f83fd211628b197ca155d5e, Wordpress 
+/hidden-directory/, 741faaf64f83fd211628b197ca155d5e, wordpress 
