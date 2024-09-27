@@ -1,1 +1,1 @@
-/wp-admin, 741faaf64f83fd211628b197ca155d5e, wordpress 
+/hidden, 741faaf64f83fd211628b197ca155d5e, wordpress
