@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo semanage port -l | grep hhtp_port_t
+sudo semanage port -l | grep http_port_t
