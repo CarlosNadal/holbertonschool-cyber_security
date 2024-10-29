@@ -1,6 +1,6 @@
 # Holberton Cybersecurity Specialization Exercises
 
-Welcome to my repository for the Holberton School Cybersecurity specialization. This repository contains my exercises for Introductio to Cybersecurity
+Welcome to my repository for the Holberton School Cybersecurity specialization. This repository contains exercises for Introduction to Cybersecurity
 
 ## General requirements
 
