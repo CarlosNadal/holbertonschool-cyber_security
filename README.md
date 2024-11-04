@@ -10,8 +10,6 @@ Welcome to my repository for the **Cybersecurity Specialization** at Holberton S
 - [Skills Developed](#skills-developed)
 - [Projects](#projects)
 - [Getting Started](#getting-started)
-- [Technologies Used](#technologies-used)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
