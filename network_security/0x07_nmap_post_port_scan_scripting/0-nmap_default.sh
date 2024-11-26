@@ -1,2 +1,2 @@
 #!/bin/bash
-nmap --script=default $1
+nmap\s+--script\s+default\s+\$1
