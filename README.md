@@ -48,7 +48,7 @@ Here are some of the key projects in this repository:
    - Explored network scanning and information gathering using tools like `nmap`, `netcat`, and custom scripts.
   
 2. **Web Application Security OWASP Top 10**  
-   - Analyzed web applications for vulnerabilities such as SQL Injection, XSS, CSRF, and used Burp Suite for pentesting.
+   - Analyzed web applications for vulnerabilities such as SQL Injection, XSS, SSRF, IDOR, etc and used Burp Suite for pentesting.
 
 3. **Password Cracking with John the Ripper and Hydra**  
    - Practiced password security and the effectiveness of password policies by cracking sample hashes.
