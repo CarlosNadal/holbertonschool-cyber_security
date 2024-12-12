@@ -1,4 +1,4 @@
-#/usr/share/env ruby
+#!/usr/bin/env ruby
 
 require_relative '0-hello_world_function'
 
