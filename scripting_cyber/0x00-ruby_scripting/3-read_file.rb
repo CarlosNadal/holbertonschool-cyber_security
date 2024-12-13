@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'json'  # Import the JSON module to work with JSON files
 
 def count_user_ids(path)
@@ -18,3 +20,5 @@ def count_user_ids(path)
     puts "#{user_id}: #{count}"
   end
 end
+
+count_user_ids("file.json")
