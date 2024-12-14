@@ -18,6 +18,7 @@ def post_request(url, body_params = {})
 
   # Print response status and body
   puts "Response status: #{response.code} #{response.message}"
-  puts "Response body: #{response.body.strip}"
+ puts "Response body: #{JSON.pretty_generate(JSON.parse(response.body))}"
+
   
 end
