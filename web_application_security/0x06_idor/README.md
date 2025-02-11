@@ -1,6 +1,6 @@
 ***Insecure Direct Object Reference***
 
-***Learning Obejctives**
+**Learning Obejctives**
 
 1. **What is an IDOR?**
 2. **What does insecure direct object reference mean?**
