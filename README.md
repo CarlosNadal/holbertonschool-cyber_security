@@ -25,6 +25,7 @@ The Cybersecurity Specialization at Holberton School provides an intensive, hand
 - Forensics ethics and Methodologies
 - Offensive security (e.g., penetration testing)
 - Defensive security (e.g., firewalls, IDS/IPS)
+- Active Directory
 
 ---
 
@@ -37,6 +38,7 @@ Throughout the program, I have developed strong skills in:
 - **Threat Detection & Response**: Identifying, analyzing, and mitigating cyber threats.
 - **Scripting & Automation**: Writing scripts in Bash and to automate security tasks.
 - **Forensics**: Analyzing digital evidence.
+- **Active Directory**: Creating an AD enviroment, exploit it and harden it.
 
 ---
 
@@ -67,6 +69,21 @@ Here are some of the key projects in this repository:
 
 8. **Protocols and servers**
    - Explored different protocols like NSF, SMTP, SNMP, SMB, LDAP, RDP, SSH, HTTPS, SFTP
+
+9. **Buffer overflow**
+   - How to exploit the different types of buffer overflow on a system
+     
+10. **Incident Response**
+   - Web application incident response involves a structured process to effectively handle and mitigate security incidents.
+
+11. **Web application forensics**
+   -Digital Forensics is the practice of identifying, preserving, analyzing, and presenting digital evidence in a manner that is          legally acceptable, typically in the context of criminal investigations or litigation.
+
+12. **CVE,CWE and NVD**
+   -What are CVEs (Common Vulnerabilities and Exposures), and how do they help in identifying and sharing information about publicly       known cybersecurity vulnerabilities.
+
+14. **Active Directory**
+   -Create an AD enviroment, exploit it and harden it.
 
 ---
 
