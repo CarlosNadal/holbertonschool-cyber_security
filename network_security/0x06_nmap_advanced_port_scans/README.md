@@ -3,7 +3,7 @@
 Learning Objectives
 
 1.How to Use Nmap for Advanced Port Scans?
-2.What are the Different Types of Advanced Port Scans?
+2.What are the Different Types of Advanced Port Scans? 
 3.How Advanced Nmap Scans Work?
 4.What can be detected with Advanced Port Scans?
 5.What are the use cases and scenarios for Advanced Port Scans?
