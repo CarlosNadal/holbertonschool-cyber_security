@@ -7,8 +7,8 @@
 3. **How IDOR works?**
 4. **What is the difference between IDOR and other vulnerabilities?**
 5. **How an IDOR Attack Happens?**
-6.**What are the types of IDOR?**
-7.**What is the impact of IDOR?**
-8.**How to detect IDOR vulnerabilities?**
-9.**How to prevent IDOR attacks?**
-10.**What are the IDOR Mitigation Best Practices?**
+6. **What are the types of IDOR?**
+7. **What is the impact of IDOR?**
+8. **How to detect IDOR vulnerabilities?**
+9. **How to prevent IDOR attacks?**
+10. **What are the IDOR Mitigation Best Practices?**
