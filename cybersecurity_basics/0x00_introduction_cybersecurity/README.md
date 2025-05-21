@@ -26,6 +26,8 @@ Do not use awk
 └─$ ./0-release.sh
 Kali
 
+----------------------------------------------------------------------------------------
+
 1. We always need strong Passwords
 Create a Bash script that generates a strong random password:
 
@@ -39,6 +41,8 @@ The output may vary for each execution
 └─$ ./1-gen_password.sh 20
 MkPpprPyC3i6navUB3Lj
 
+----------------------------------------------------------------------------------------
+
 2. Verify the integrity of a file
 Create a Bash script that validate the integrity of a file:
 
@@ -48,11 +52,15 @@ You can use echo in this task
 └─$ ./2-sha256_validator.sh test_file e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855             
 test_file: OK
 
+----------------------------------------------------------------------------------------
+
 3. We need an SSH key pair!
 Create a Bash script that generates an RSA SSH key pair.
 
 Your key size should be 4096
 You Should Use Open-ssh
+
+----------------------------------------------------------------------------------------
 
 4. Let's Monitor root activity
 Create a Bash script that monitors all processes started by specified user.
