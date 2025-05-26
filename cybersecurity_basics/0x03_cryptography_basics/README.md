@@ -7,9 +7,9 @@ Your script should accept a password as an arguments $1
 The resulting hash must be stored in 0_hash.txt
 Depending on the given password, the output could change
 
-┌──(maroua㉿HBTN-LAB)- ~/0x03_cryptography_basics
+┌──(maroua㉿HBTN-LAB)- [~/0x03_cryptography_basics]
 └─🏴 ./0-sha1.sh "Holberton"
-┌──(maroua㉿HBTN-LAB)-~/0x03_cryptography_basics
+┌──(maroua㉿HBTN-LAB)-[~/0x03_cryptography_basics]
 └─🏴 cat 0_hash.txt
 808f94d2847fb381839b4bbbd7cdf30804fd47ac
 Repo:
