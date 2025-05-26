@@ -60,44 +60,44 @@ Depending on your machine, the output could change.
 [sudo] password for maroua:
 ┌──(maroua㉿HBTN-LAB)-[~/Permissions, SUID & SGID]
 └─🏴 sudo cat /etc/sudoers
-#
-# This file MUST be edited with the 'visudo' command as root.
-#
-# Please consider adding local content in /etc/sudoers.d/ instead of
-# directly modifying this file.
-#
-# See the man page for details on how to write a sudoers file.
-#
+
+ This file MUST be edited with the 'visudo' command as root.
+
+ Please consider adding local content in /etc/sudoers.d/ instead of
+ directly modifying this file.
+
+ See the man page for details on how to write a sudoers file.
+
 Defaults        envreset
 Defaults        mailbadpass
 Defaults        securepath="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 Defaults        usepty
-# This preserves proxy settings from user environments of root
-# equivalent users (group sudo)
-# Defaults:%sudo envkeep += "httpproxy httpsproxy ftpproxy allproxy noproxy"
-# This allows running arbitrary commands, but so does ALL, and it means
-# different sudoers have their choice of editor respected.
-# Defaults:%sudo envkeep += "EDITOR"
-# Completely harmless preservation of a user preference.
-# Defaults:%sudo envkeep += "GREPCOLOR"
-# While you shouldn't normally run git as root, you need to with etckeeper
-# Defaults:%sudo envkeep += "GITAUTHOR* GITCOMMITTER*"
-# Per-user preferences; root won't have sensible values for them.
-# Defaults:%sudo envkeep += "EMAIL DEBEMAIL DEBFULLNAME"
-# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
-# Defaults:%sudo envkeep += "SSHAGENTPID SSHAUTHSOCK"
-# Ditto for GPG agent
-# Defaults:%sudo envkeep += "GPGAGENT_INFO"
-# Host alias specification
-# User alias specification
-# Cmnd alias specification
-# User privilege specification
+ This preserves proxy settings from user environments of root
+ equivalent users (group sudo)
+ Defaults:%sudo envkeep += "httpproxy httpsproxy ftpproxy allproxy noproxy"
+ This allows running arbitrary commands, but so does ALL, and it means
+ different sudoers have their choice of editor respected.
+ Defaults:%sudo envkeep += "EDITOR"
+ Completely harmless preservation of a user preference.
+ Defaults:%sudo envkeep += "GREPCOLOR"
+ While you shouldn't normally run git as root, you need to with etckeeper
+ Defaults:%sudo envkeep += "GITAUTHOR* GITCOMMITTER*"
+ Per-user preferences; root won't have sensible values for them.
+ Defaults:%sudo envkeep += "EMAIL DEBEMAIL DEBFULLNAME"
+ "sudo scp" or "sudo rsync" should be able to use your SSH agent.
+ Defaults:%sudo envkeep += "SSHAGENTPID SSHAUTHSOCK"
+ Ditto for GPG agent
+ Defaults:%sudo envkeep += "GPGAGENT_INFO"
+ Host alias specification
+ User alias specification
+ Cmnd alias specification
+ User privilege specification
 root    ALL=(ALL:ALL) ALL
-# Members of the admin group may gain root privileges
+ Members of the admin group may gain root privileges
 %admin ALL=(ALL) ALL
-# Allow members of group sudo to execute any command
+ Allow members of group sudo to execute any command
 %sudo   ALL=(ALL:ALL) ALL
-# See sudoers(5) for more information on "@include" directives:
+ See sudoers(5) for more information on "@include" directives:
 @includedir /etc/sudoers.d
 maroua ALL=(ALL) NOPASSWD: ALL
 ┌──(maroua㉿HBTN-LAB)-[~/Permissions, SUID & SGID]
